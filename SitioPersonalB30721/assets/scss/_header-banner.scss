@@ -1,0 +1,139 @@
+/*--------------------------------------------------------------
+# Banner
+--------------------------------------------------------------*/
+.banner h1,.banner-social{
+  max-width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 30px;
+
+   @media (min-width: 992px){
+   max-width: 100%;
+  }
+
+}
+
+.banner h1{
+  color: #333;
+  @media (min-width:992px){
+    margin-top: 90px;
+  }
+}
+
+.banner-social{
+  margin-bottom: 30px;
+
+  a{
+    font-weight: 600;
+    letter-spacing: 1px;
+    color: $color-brand-secondary;
+  }
+   @media (min-width: 992px){
+   margin-bottom: 40px;
+  }
+
+  @media (min-width:1200px){
+    margin-bottom: 80px;
+  }
+}
+
+.banner .featured-img{
+  max-width: 250px;
+  margin: 0 auto;
+
+  @media (min-width: 992px){
+   max-width: 100%;
+   margin: 0;
+  }
+}
+.subscribe-box {
+  background-color: #444444;
+  color: #ffffff;
+  padding: 30px;
+  margin: 0 auto;
+  margin-bottom: 40px;
+  max-width: 500px;
+
+  span {
+    font-family: "Open Sans";
+    display: block;
+    font-size: 18px;
+    font-weight: 300;
+    margin-bottom: 5px; 
+    }
+
+    h4 {
+    font-size: $font-heading-five;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 15px; 
+    }
+  @media (min-width:992px){
+    margin: 0;
+  }
+  @media (min-width: 1200px){
+    padding: 50px 30px;
+   max-width: 100%;
+   margin-bottom: 0px;
+  }
+
+  }
+
+
+
+/*--------------------------------------------------------------
+# ABOUT BANNER
+--------------------------------------------------------------*/
+
+.about-banner{
+  background-image:url('../images/about/featured.png');
+  background-size: cover;
+  background-repeat:no-repeat;
+  height: 343px;
+
+  blockquote{
+    position: relative;
+    color: #fff;
+    padding: 0;
+    margin: 0 auto;
+    border:none;
+    max-width: 350px;
+    line-height: 1.1;
+    letter-spacing: 1px;
+    span{
+      display: inline-block;
+      font-family: $font-family-third;
+      font-size: $font-heading-four;
+      margin-bottom: 10px;
+    }
+    footer{
+      font-family: $font-family-secondary;
+      font-size: $font-secondary-size;
+      color: #eeeeee;
+      text-transform: uppercase;
+    }
+
+    &:before{
+      content: url('../images/about/quote.png');
+      position: absolute;
+      top:5px;
+      left:-60px;
+    }
+  }
+}
+
+/*--------------------------------------------------------------
+# heading banner
+--------------------------------------------------------------*/
+.heading-banner{
+  background-image: url('../images/work/featured-1.png');
+  background-size: cover;
+  background-repeat:no-repeat;
+  height: 343px;
+
+  h2{
+    margin-bottom: 0;
+    color: #fff;
+    letter-spacing: 2px;
+  }
+}

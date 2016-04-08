@@ -1,0 +1,51 @@
+.subscribe-box{
+	form input{
+		font-family: $font-family-secondary;
+		padding: 10px 10px;
+		border-radius: 2px;
+		border: none;
+		margin-bottom: 15px;
+		width: 100%;
+		text-transform: capitalize;
+	}
+	p{
+		margin-bottom: 0;
+	}
+}
+
+
+
+.cta-button{
+	font-family: $font-family-secondary;
+	border:none;
+	border-radius: 2px;
+	padding: 8px 10px;
+	background-color: $color-brand-main;
+	font-size: $font-four-size;
+	color: #fff;
+	text-align: center;
+
+	a{
+		color: #fff;
+	}
+}
+
+.contact-body{
+	form{
+		background-color: #eeeeee;
+		padding: 30px;
+
+		input,textarea{
+			display: block;
+			width:100%;
+			border: none;
+			margin-bottom: 30px;
+			padding: 15px;
+		}
+
+		textarea{
+			height: 220px;
+		}
+	}
+	
+}

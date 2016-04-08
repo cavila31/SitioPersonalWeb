@@ -1,0 +1,124 @@
+body,
+button,
+input,
+select,
+textarea,
+blockquote {
+	font-family: $font-family-main;
+	font-size: $font-main-size;
+	color: $color-text-main;
+}
+
+nav{
+	font-family: $font-family-secondary;
+	text-transform: uppercase;
+}
+
+/*--------------------------------------------------------------
+# Headings
+--------------------------------------------------------------*/
+
+@font-face {
+    font-family: 'league_gothicregular';
+    src: url('../fonts/leaguegothic/leaguegothic-regular-webfont.eot');
+    src: url('../fonts/leaguegothic/leaguegothic-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/leaguegothic/leaguegothic-regular-webfont.woff2') format('woff2'),
+         url('../fonts/leaguegothic/leaguegothic-regular-webfont.woff') format('woff'),
+         url('../fonts/leaguegothic/leaguegothic-regular-webfont.ttf') format('truetype'),
+         url('../fonts/leaguegothic/leaguegothic-regular-webfont.svg#league_gothicregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+h1, h2, h3, h4, h5, h6 {
+	font-family: $font-family-third;
+	clear: both;
+	margin: 0;
+}
+
+h1{
+	font-size:$font-heading-three;
+	text-transform: uppercase;
+	margin: 40px 0 20px 0;
+	letter-spacing: 1px;
+	line-height: 0.7;
+
+	@media (min-width: 992px){
+		font-size: $font-heading-two;
+		letter-spacing: 2px;
+	}
+
+	@media (min-width: 1200px){
+		font-size: $font-heading-one;
+	}
+}
+
+h2{
+	font-size:$font-heading-three;
+	text-transform: uppercase;
+	margin-bottom: 60px
+}
+
+h3{
+	font-size:$font-heading-six;
+	text-transform: uppercase;
+	margin-bottom: 40px
+}
+
+h4{
+	font-size: $font-heading-four;
+	text-transform: uppercase;
+	margin: 15px 0 20px 0;
+	letter-spacing: 1px;
+}
+
+h5{
+	font-size: $font-heading-five;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.blog-body h1{
+	font-size: $font-heading-four;
+	margin: 0;
+	line-height: 1;
+	letter-spacing: 1px;
+	text-transform: capitalize;
+	margin-bottom: 20px;
+
+	a{
+		color: #555;
+		transition: all 0.3s;
+
+		&:hover{
+			color: $color-brand-main;
+			text-decoration: none;
+		}
+	}
+}
+
+.blog-body h2{
+    font-size: 26px;    
+    text-transform: capitalize;
+    margin: 0;
+  }
+
+.blog-body h3{
+	font-size:20px;
+	letter-spacing: 1px;
+	line-height: 1.2;
+}
+
+/*--------------------------------------------------------------
+# Copy
+--------------------------------------------------------------*/
+
+p {
+	font-weight: 300;
+	line-height: 1.9;
+}
+
+ul{
+	margin:0;
+}

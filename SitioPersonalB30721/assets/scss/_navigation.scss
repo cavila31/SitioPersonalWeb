@@ -1,0 +1,63 @@
+/*--------------------------------------------------------------
+## Links
+--------------------------------------------------------------*/
+
+
+/*--------------------------------------------------------------
+## Menus
+--------------------------------------------------------------*/
+.main-navigation.navbar-default{
+	background-color: f7f7f7;
+	border: none;
+	margin-bottom: 0;
+	.navbar-nav>li.active>a{
+		color: $color-brand-main;
+		background-color: transparent;
+	}
+
+	.navbar-nav>li>a {
+	    color: $color-text-main;
+	    font-weight: 400;
+	    transition: all 0.3s;
+	    font-size: $font-secondary-size;
+
+	    &:hover{
+	    	color: $color-brand-main;
+	    }
+	}
+
+	.navbar-nav>li>.dropdown-menu{
+		font-size: $font-secondary-size;
+	}
+
+	.navbar-brand{
+	font-size:16px;
+	font-weight: 800;
+	color: #555;
+
+	span{
+		font-weight: 400;
+		color: $color-brand-main;
+		letter-spacing: 1px;
+		}
+	}
+
+	.navbar-header{
+		@media (min-width: 768px){
+			    float: none;
+			    width: 50%;	
+			    margin: 0 auto;		    
+		}
+
+		@media (min-width: 992px){
+			    float: left;
+			    width: auto;
+			    margin: 0;
+		}
+	}
+	
+
+
+}
+
+

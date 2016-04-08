@@ -1,0 +1,59 @@
+/*--------------------------------------------------------------
+# footer widget
+--------------------------------------------------------------*/
+
+.footer-widget{
+  background-color: $background-color-footer;
+
+  img{
+    border: 5px solid #2d2d2d;
+    margin:0 auto 30px;
+  }
+   .subscribe-box{
+      margin-bottom: 0;
+    }
+}
+
+/*--------------------------------------------------------------
+# footer
+--------------------------------------------------------------*/
+
+footer.main-footer{
+  background-color: $background-color-footer;
+  .footer-links{
+    font-family: $font-family-secondary;
+    text-transform: uppercase;
+    padding: 30px 0;
+    border-top: 1px solid #292929;
+
+      ul{
+        margin-bottom: 20px;
+
+        &.terms{
+          margin-bottom: 0;
+          font-size: 11px;
+          li{
+            position: relative;
+            &:after{
+              content: '';
+              position: absolute;
+              width: 1px;
+              height: 15px;
+              background-color: #292929;
+              top:1px;
+              right:-15px; 
+            }
+          }
+          
+        }
+
+        li{
+          display: inline-block;
+          margin-right: 30px;
+          a{
+            color: #858585; 
+          }
+        }
+      }
+    }
+  }

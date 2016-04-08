@@ -1,0 +1,15 @@
+.container{
+	@media (min-width: 768px){
+		width: 500px;
+	}
+	@media (min-width: 992px){
+		width: 970px;
+	}
+	@media (min-width: 1200px){
+		width: 1170px;
+	}	    
+}
+
+.section-padding-main{
+	 padding: 80px 0;
+}

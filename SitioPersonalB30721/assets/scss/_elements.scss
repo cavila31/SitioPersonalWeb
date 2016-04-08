@@ -1,0 +1,77 @@
+ul {
+	list-style: none;
+	margin: 0;
+	padding: 0;
+}
+
+li{
+	font-weight: 300;
+	line-height: 1.7;
+}
+
+ul.banner-social{
+	padding-left: 5px;
+}
+ul.banner-social li{
+	position: relative;
+	display: inline-block;
+	font-family: $font-family-secondary;
+	font-size: $font-secondary-size;
+	text-transform: uppercase;
+	margin-right: 20px;
+
+	a{
+		color: $color-brand-main;
+	}
+}
+
+ul.banner-social li:after{
+	position: absolute;
+	content: "/";
+	right:-13px;
+	color:$color-text-main;
+}
+
+
+ul.banner-social li:last-child{
+
+	&:after{
+		content: "";
+	}
+}
+
+table {
+	margin: 0 0 1.5em;
+	width: 100%;
+}
+
+.more-link a{
+	display: block;
+	margin-bottom: 30px;
+	font-family: $font-family-secondary;
+	font-style: italic;
+	font-size: $font-third-size;
+	color: $color-brand-main;
+	display: block;
+	font-weight: 400;
+	margin-top: 12px;
+	text-decoration: underline;
+}
+
+.wrapper-table {
+    display: table;
+    height: 100%;
+    width: 100%;
+}
+
+.wrapper-table > .valign-center {
+    display: table-cell;
+    vertical-align: middle;
+}
+
+blockquote{
+	padding:0;
+	margin: 0;
+	border-left: none;
+}
+
