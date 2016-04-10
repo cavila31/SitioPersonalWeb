@@ -507,7 +507,7 @@ blockquote {
 # ABOUT BANNER
 --------------------------------------------------------------*/
 .about-banner {
-  background-image: url("../images/about/featured.png");
+  background-image: url("../images/about/hp.png");
   background-size: cover;
   background-repeat: no-repeat;
   height: 343px; }
