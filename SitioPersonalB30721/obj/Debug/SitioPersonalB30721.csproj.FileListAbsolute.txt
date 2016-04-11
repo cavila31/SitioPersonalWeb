@@ -195,3 +195,4 @@ C:\Users\Carolina\Documents\GitHub\SitioPersonalWeb\SitioPersonalB30721\bin\es\M
 C:\Users\Carolina\Documents\GitHub\SitioPersonalWeb\SitioPersonalB30721\obj\Debug\SitioPersonalB30721.csprojResolveAssemblyReference.cache
 C:\Users\Carolina\Documents\GitHub\SitioPersonalWeb\SitioPersonalB30721\obj\Debug\SitioPersonalB30721.dll
 C:\Users\Carolina\Documents\GitHub\SitioPersonalWeb\SitioPersonalB30721\obj\Debug\SitioPersonalB30721.pdb
+C:\Users\Carolina\Documents\GitHub\SitioPersonalWeb\SitioPersonalB30721\bin\SitioPersonalB30721.dll.config
