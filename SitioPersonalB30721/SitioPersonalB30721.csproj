@@ -19,6 +19,7 @@
     <IISExpressAnonymousAuthentication />
     <IISExpressWindowsAuthentication />
     <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -153,7 +154,23 @@
     <Content Include="Account\Register.aspx" />
     <Content Include="Account\RegisterExternalLogin.aspx" />
     <Content Include="assets\css\style.css" />
+    <Content Include="assets\f2.jpg" />
+    <Content Include="assets\f3.jpg" />
     <Content Include="assets\fonts\leaguegothic\leaguegothic-regular-webfont.svg" />
+    <Content Include="assets\images\a1.jpg" />
+    <Content Include="assets\images\a10.jpg" />
+    <Content Include="assets\images\a11.jpg" />
+    <Content Include="assets\images\a12.jpg" />
+    <Content Include="assets\images\a13.jpg" />
+    <Content Include="assets\images\a14.jpg" />
+    <Content Include="assets\images\a15.jpg" />
+    <Content Include="assets\images\a2.jpg" />
+    <Content Include="assets\images\a3.jpg" />
+    <Content Include="assets\images\a5.jpg" />
+    <Content Include="assets\images\a6.jpg" />
+    <Content Include="assets\images\a7.jpg" />
+    <Content Include="assets\images\a8.jpg" />
+    <Content Include="assets\images\a9.jpg" />
     <Content Include="assets\images\about\body-img-1.png" />
     <Content Include="assets\images\about\body-img-2.png" />
     <Content Include="assets\images\about\featured.png" />
@@ -166,8 +183,16 @@
     <Content Include="assets\images\blog\women.png" />
     <Content Include="assets\images\books\book-1.png" />
     <Content Include="assets\images\books\book-2.png" />
+    <Content Include="assets\images\business.svg" />
+    <Content Include="assets\images\c1.jpg" />
+    <Content Include="assets\images\c2.jpg" />
+    <Content Include="assets\images\c3.jpg" />
+    <Content Include="assets\images\c4.jpg" />
+    <Content Include="assets\images\computer.svg" />
     <Content Include="assets\images\contact\1.png" />
     <Content Include="assets\images\contact\sign.png" />
+    <Content Include="assets\images\education.svg" />
+    <Content Include="assets\images\f1.jpg" />
     <Content Include="assets\images\footer\1.png" />
     <Content Include="assets\images\home\1.png" />
     <Content Include="assets\images\home\2.png" />
@@ -188,12 +213,19 @@
     <Content Include="assets\images\logos\img-3.png" />
     <Content Include="assets\images\logos\img-4.png" />
     <Content Include="assets\images\logos\img-5.png" />
+    <Content Include="assets\images\mountain.svg" />
     <Content Include="assets\images\review\1.png" />
     <Content Include="assets\images\review\2.png" />
     <Content Include="assets\images\shop\1.png" />
     <Content Include="assets\images\shop\2.png" />
     <Content Include="assets\images\shop\3.png" />
     <Content Include="assets\images\shop\4.png" />
+    <Content Include="assets\images\signature.svg" />
+    <Content Include="assets\images\suitcase.svg" />
+    <Content Include="assets\images\v1.jpg" />
+    <Content Include="assets\images\v2.jpg" />
+    <Content Include="assets\images\v3.jpg" />
+    <Content Include="assets\images\v4.jpg" />
     <Content Include="assets\images\women.png" />
     <Content Include="assets\images\work\check.png" />
     <Content Include="assets\images\work\featured-1.png" />
