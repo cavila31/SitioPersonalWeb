@@ -188,7 +188,9 @@
     <Content Include="assets\images\c2.jpg" />
     <Content Include="assets\images\c3.jpg" />
     <Content Include="assets\images\c4.jpg" />
+    <Content Include="assets\images\cameras.svg" />
     <Content Include="assets\images\computer.svg" />
+    <Content Include="assets\images\computer1.svg" />
     <Content Include="assets\images\contact\1.png" />
     <Content Include="assets\images\contact\sign.png" />
     <Content Include="assets\images\education.svg" />
@@ -214,6 +216,8 @@
     <Content Include="assets\images\logos\img-4.png" />
     <Content Include="assets\images\logos\img-5.png" />
     <Content Include="assets\images\mountain.svg" />
+    <Content Include="assets\images\paint.svg" />
+    <Content Include="assets\images\pencil.svg" />
     <Content Include="assets\images\review\1.png" />
     <Content Include="assets\images\review\2.png" />
     <Content Include="assets\images\shop\1.png" />
