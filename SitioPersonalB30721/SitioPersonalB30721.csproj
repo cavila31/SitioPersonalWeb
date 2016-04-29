@@ -147,7 +147,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="About.aspx" />
-    <Content Include="about.html" />
+    <Content Include="about.shtml" />
     <Content Include="Account\Login.aspx" />
     <Content Include="Account\Manage.aspx" />
     <Content Include="Account\OpenAuthProviders.ascx" />
@@ -241,15 +241,16 @@
     <Content Include="assets\lib\bootstrap\js\bootstrap.min.js" />
     <Content Include="assets\lib\jquery\jquery-1.12.1.min.js" />
     <Content Include="blog-single.html" />
-    <Content Include="blog.html" />
-    <Content Include="consultation.html" />
+    <Content Include="blog.shtml" />
+    <Content Include="consultation.shtml" />
     <Content Include="Contact.aspx" />
-    <Content Include="contact.html" />
+    <Content Include="contact.shtml" />
     <Content Include="Content\bootstrap.css" />
     <Content Include="Content\bootstrap.min.css" />
     <Content Include="Content\Site.css" />
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
-    <Content Include="index.html" />
+    <Content Include="header.html" />
+    <Content Include="index.shtml" />
     <Content Include="packages.config" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
@@ -275,9 +276,9 @@
     <Content Include="assets\scss\_reviews.scss" />
     <Content Include="assets\scss\_typography.scss" />
     <Content Include="assets\scss\_variables-site.scss" />
-    <Content Include="workshop.html" />
+    <Content Include="workshop.shtml" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
-    <Content Include="praise.html" />
+    <Content Include="praise.shtml" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />
     <Content Include="Scripts\jquery-1.10.2.js" />
@@ -310,10 +311,10 @@
     <Content Include="Default.aspx" />
     <Content Include="favicon.ico" />
     <Content Include="Global.asax" />
-    <Content Include="shop.html" />
+    <Content Include="shop.shtml" />
     <Content Include="Site.Master" />
-    <Content Include="speaking.html" />
-    <Content Include="training.html" />
+    <Content Include="speaking.shtml" />
+    <Content Include="training.shtml" />
     <Content Include="ViewSwitcher.ascx" />
     <Content Include="Web.config" />
     <Content Include="Bundle.config" />
